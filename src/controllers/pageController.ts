@@ -4,7 +4,6 @@ import { Pet } from "../models/pet";
 
 export const home = (req: Request, res: Response) => {
   let list = Pet.getAll();
-
   res.render("pages/page", {
     menu: createMenuObject("all"),
     banner: {
