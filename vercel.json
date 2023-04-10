@@ -10,7 +10,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dsrcist/routes/index.ts"
+      "dest": "src/routes/index.ts"
     }
   ]
 }
