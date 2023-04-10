@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  2D Platform game at Unity
+  Fictitious adoption platform
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dionbiancha/petdevshop.svg">
