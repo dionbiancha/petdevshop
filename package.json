@@ -7,10 +7,9 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "nodemon -e ts,json,mustache src/server.ts",
     "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
